@@ -64,7 +64,7 @@ Opens an Obsidian vault, or open a file within that vault.
 - `clipboard` allows the use of the contents of the clipboard instead of specifying `content`.
 - `prepend` will add to the top of the file and attempt to merge properties.
 - `append` will add to the end of the file and also attempt to merge properties.
-- **[[Daily notes]] required**: `daily` creates a new Obsidian URI action that will automatically open or create your daily note.
+- `daily` creates a new Obsidian URI action that will automatically open or create your daily note. Requires the [[Daily notes]] plugin to be active.
 
 
 ## Open search
@@ -141,6 +141,5 @@ In addition to the formats above, there are two more "shorthand" formats availab
 1. `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`.
 2. `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
 
----
 
 [^1]: Vault ID is the random 16-character code assigned to the vault, for example `ef6ca3e3b524d22f`. This ID is unique per folder on your computer. The ID can be found by opening the vault switcher and clicking "Copy vault ID" in the context menu for the desired vault.

@@ -51,7 +51,7 @@ Properties have their own [[Search|search syntax]] that you can use alongside ot
 
 ### Templates
 
-You can add properties to [[Templates]]. When you insert a template into the active note, all the properties from the template will be added to the note. Obsidian will also merge any properties that exist in your note with properties in the template.
+You can add properties to [[Plugins/Templates]]. When you insert a template into the active note, all the properties from the template will be added to the note. Obsidian will also merge any properties that exist in your note with properties in the template.
 
 ### Rename properties
 
@@ -238,13 +238,13 @@ Obsidian comes with a set of default properties:
 
 The following properties can be used with [[Introduction to Obsidian Publish|Obsidian Publish]]:
 
-| Property | Description |
-|-|-|
-| `publish` | See [[Publish and unpublish notes#Automatically select notes to publish\|Automatically select notes to publish]]. |
-| `permalink` | See [[Publish and unpublish notes#Permalinks\|Permalinks]]. |
-| `description` | See [[Social media link previews#Description\|Description]]. |
-| `image` | See [[Social media link previews#Image\|Image]]. |
-| `cover` | See [[Social media link previews#Image\|Image]]. |
+| Property      | Description                                                                                                       |
+| ------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `publish`     | See [[Publish and unpublish notes#Automatically select notes to publish\|Automatically select notes to publish]]. |
+| `permalink`   | See [[Permalinks\|Permalinks]].                                                                                   |
+| `description` | See [[Social media link previews#Description\|Description]].                                                      |
+| `image`       | See [[Social media link previews#Image\|Image]].                                                                  |
+| `cover`       | See [[Social media link previews#Image\|Image]].                                                                  |
 
 ### Deprecated properties
 

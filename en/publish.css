@@ -1,3 +1,9 @@
+.published-container {
+  --code-border-width: 1px;
+  --table-row-alt-background: var(--background-primary-alt);
+  --table-row-alt-background-hover: var(--background-primary-alt);
+}
+
 .site-body-left-column-site-logo {
   text-align: left;
   margin-bottom: 24px;
@@ -181,6 +187,7 @@ img[src$="#outline"] {
 }
 .list-cards div > ul ul > li {
   display: block;
+  margin-inline-start: 0;
 }
 .theme-dark .list-cards div ul > li {
   background-color: var(--background-secondary);
